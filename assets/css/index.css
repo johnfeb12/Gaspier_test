@@ -3,7 +3,7 @@ body{
 }
 
 .banner{
-    background-image: url('/assets/images/mainpic.jpg');
+    background-image: url('../images/mainpic.jpg');
     background-size: cover;
     height: 80vh;
     box-shadow: 100px 100px 1000px 1000px inset rgba(0, 0, 0, 0.39);
