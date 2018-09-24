@@ -1,0 +1,292 @@
+body{
+    height: 200vh;
+}
+
+.banner{
+    background-image: url('/assets/images/mainpic.jpg');
+    background-size: cover;
+    height: 80vh;
+    box-shadow: 100px 100px 1000px 1000px inset rgba(0, 0, 0, 0.39);
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .nav-link {
+    color: #555;
+}
+
+.gaspier{
+        width: 160px;
+        height: 50px;
+}
+
+.gaspier2 {
+    width: 120px;
+    height: 50px;
+    display: none;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
+}
+
+.navlinks:hover{
+    border-bottom: 2px solid #34becb;
+}
+
+.active{
+    border-bottom: 2px solid #34becb;
+}
+
+.navlinks:hover > .active:hover{
+    border-bottom: none;
+}
+
+
+.navbar-fixed-top.scrolled .nav-link {
+    color: black !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+
+
+.signUp {
+    background-color: #34becb;
+    border: none;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);
+}
+
+.signUp {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.signUp:after {
+    content: '>';
+    position: absolute;
+    opacity: 0;
+    right: -1px;
+    transition: 0.5s;
+}
+
+.signUp:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+    width: 120px;
+}
+
+.signUp:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.signUp:focus {
+    outline: 0;
+}
+
+.content{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    top: 200px;
+    color: white;
+}
+
+@media (max-width: 942px)  {
+    
+.signUp{
+    display: none;
+}
+
+}
+
+@media (max-width: 620px) {
+
+    .content {
+        text-align: center;
+        position: relative;
+        top: 110px;
+        color: white;
+    }
+
+
+}
+
+
+
+
+
+.navbar-nav{
+    white-space: nowrap;
+}
+
+.sign{
+    margin: 20px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #34becb;
+    color: white;
+}
+
+.sign:hover{
+    background-color: #2facb8;
+}
+
+.sign:active{
+    background-color: #0c336e;
+
+}
+
+.sign:focus{
+    outline: 0;
+}
+
+.question{
+     margin: 20px;
+     height: 40px;
+     border: none;
+     background-color: #34becb62;
+     color: white;
+}
+
+.question:hover{
+    background-color: #34becb9d;
+
+}
+
+.question:active{
+    background-color: #0c336e;
+}
+
+.question:focus{
+    outline: 0;
+}
+
+.slogan{
+    font-size: 60px;
+}
+
+.sloganBottom{
+    margin: 40px;
+    font-size: 18px;
+}
+
+.allTime{
+    width: 70px;
+}
+
+.grey{
+    background-color: #f3f3f3;
+    border-bottom: 1px solid darkgrey;
+}
+
+.phone{
+    width: 450px;
+    margin-top: 70px;
+}
+
+.unique{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.uniqueList{
+    padding: 12px;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.sloganUnique{
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+.white{
+    border-bottom: 1px solid darkgrey;
+}
+
+.ipad{
+    width: 760px;
+}
+
+.phoneCol1{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.unique2{
+   text-align: center;
+   margin-top: 70px;
+}
+
+
+@media (max-width: 767px) {
+
+    .uniqueList {
+        padding: 20px;
+        text-align: center;
+        max-width: 400px;
+        margin: 0 auto;
+        list-style: none;
+    }
+
+    .phone {
+        width: 350px;
+        margin-top: 70px;
+    }
+
+    .phoneCol {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+
+    .phoneCol1 {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .ipad {
+        width: 400px;
+        padding-right: 43px;
+    }
+
+}
+
+@media (max-width: 1384px) {
+
+    .unique2{
+        max-width: 700px;
+        margin: 70 auto;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .rowFlip{
+        flex-direction: column-reverse;
+    }
+
+}
