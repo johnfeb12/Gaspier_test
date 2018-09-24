@@ -1,16 +1,8 @@
-html,
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
 
 .banner{
     background-image: url(../images/mainpic.jpg);
     background-size: cover;
-    height: 80vh;
+    
     box-shadow: 100px 100px 1000px 1000px inset rgba(0, 0, 0, 0.39);
 }
 
@@ -108,9 +100,9 @@ body {
 
 .content{
     text-align: center;
-    position: relative;
+    padding-top: 150px;
+    padding-bottom: 150px;
     z-index: 1;
-    top: 200px;
     color: white;
 }
 
@@ -126,8 +118,8 @@ body {
 
     .content {
         text-align: center;
-        position: relative;
-        top: 110px;
+        padding-top: 100px;
+        padding-bottom: 150px;
         color: white;
     }
 
