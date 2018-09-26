@@ -6,7 +6,7 @@ body {
     background-image: url(../images/customer-care.jpeg);
     background-size: cover;
 
-    -webkit-box-shadow:inset 100px 100px 1000px 1000px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: inset 100px 100px 1000px 1000px rgba(0, 0, 0, 0.39);
 
     box-shadow: 100px 100px 1000px 1000px inset rgba(13, 52, 75, 0.596);
 }
