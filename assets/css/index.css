@@ -35,6 +35,7 @@ body{
 
 .navbar-light .navbar-nav .nav-link {
     color: white !important;
+    white-space: nowrap;
 }
 
 .navlinks:hover {
