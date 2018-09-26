@@ -1,0 +1,536 @@
+body {
+    overflow-x: hidden;
+}
+
+.banner {
+    background-image: url('../images/skyline.jpg');
+    background-size: cover;
+
+    -webkit-box-shadow: 100px 100px 1000px 1000px inset rgba(0, 0, 0, 0.39);
+
+    box-shadow: 100px 100px 1000px 1000px inset rgba(10, 10, 17, 0.568);
+}
+
+.sloganBottom {
+    margin: 40px;
+    font-size: 20px;
+    letter-spacing: .1px;
+    line-height: 35px;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    -webkit-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .nav-link {
+    color: #555;
+}
+
+.gaspier {
+    width: 160px;
+    height: 50px;
+}
+
+.gaspier2 {
+    width: 120px;
+    height: 50px;
+    display: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    white-space: nowrap;
+}
+
+.navlinks:hover {
+    border-bottom: 2px solid #34becb;
+}
+
+.active {
+    border-bottom: 2px solid #34becb;
+}
+
+.navlinks:hover>.active:hover {
+    border-bottom: none;
+}
+
+
+.navbar-fixed-top.scrolled .nav-link {
+    color: black !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+
+
+.signUp {
+    background-color: #34becb;
+    border: none;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    width: 100px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);
+}
+
+.signUp {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.signUp:after {
+    content: '>';
+    position: absolute;
+    opacity: 0;
+    right: -1px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.signUp:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+    width: 120px;
+}
+
+.signUp:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.signUp:focus {
+    outline: 0;
+}
+
+.content {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    z-index: 1;
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contact-7 {
+    border-right: 2px solid rgba(211, 211, 211, 0.363);
+}
+
+.contactSlogan {
+    margin: 30px;
+}
+
+.location {
+    margin: 30px;
+    font-weight: 300;
+}
+
+.contact {
+    margin: 30px;
+    font-weight: 200;
+}
+
+.formInput {
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.formInput:focus {
+    outline: none;
+}
+
+.signUp2 {
+    background-color: #34becb;
+    border: none;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);
+}
+
+.signUp2 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.signUp2:after {
+    content: '>';
+    position: absolute;
+    opacity: 0;
+    right: -1px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.signUp2:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+    width: 220px;
+}
+
+.signUp2:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.footer {
+    margin-top: 8%;
+    background-color: black;
+}
+
+.footContent {
+    color: white;
+    margin: 20px;
+    padding: 50px;
+    text-align: center;
+    display: inline;
+}
+
+.Applogo {
+    width: 120px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.Googlelogo {
+    width: 120px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.logos {
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.bottomFooter {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.footerIcons {
+    display: inline;
+
+}
+
+.icons {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.footerMenu {
+    display: inline;
+}
+
+.footMenu {
+    display: inline;
+    list-style: none;
+    color: white !important;
+}
+
+
+
+.footLink:hover {
+    border: none;
+    text-decoration: none !important;
+    color: #0c336e;
+}
+
+.Buyer, .Seller, .Platform {
+    width: 130px;
+    height: 60px;
+    margin-top: 30px;
+    background-color: hsla(231, 70%, 28%, 0.81);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+
+.Buyer:focus,
+.Seller:focus,
+.Platform:focus {
+  
+    outline: none;
+
+}
+
+.activePlan {
+    width: 130px;
+    height: 65px;
+    /* box-shadow: 0px 1px 4px white; */
+    margin-top: 30px;
+    background-color: #00e8ff80;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.planBox{
+    border-radius: 5px;
+    text-align: center;
+    max-width: 350px;
+    margin: -120 auto;
+    font-weight: 300px;
+    background-color: white;
+    box-shadow: 4px 4px 5px rgba(128, 128, 128, 0.377);
+    margin-bottom: 10%;
+
+}
+
+.planHeader{
+    padding: 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: linear-gradient(rgba(0, 78, 78, 0.795) ,#8b8b8bc4 60%);
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.gasLogo{
+    width: 70px;
+    margin: 10px;
+}
+
+.checkoutMore{
+    width: 250px;
+    height: 45px;
+    border: none;
+    background-color: hsla(0, 0%, 45%, 0.712);
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.checkoutMore2 {
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: hsla(0, 0%, 45%, 0.712);
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.included{
+    
+}
+
+
+.grey{
+    background-color: rgba(128, 128, 128, 0.062);
+    padding: 10px;
+    margin: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+
+}
+
+.white{
+    background-color: rgba(128, 128, 128, 0.103);
+    padding: 10px;
+    margin: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+}
+
+
+.buyerPlan{
+
+}
+
+.sellerPlan{
+    display: none;
+}
+
+.platformPlan{
+    display: none;
+}
+
+
+
+@media (max-width: 767px) {
+
+    .navbar-light .navbar-nav .nav-link {
+        color: black !important;
+    }
+
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+        background: rgb(255, 255, 255);
+    }
+
+    #home {
+        color: black !important;
+    }
+
+    .gaspier {
+        content: url('../images/gaspier-logo5.png')
+    }
+}
+
+@media (max-width: 802px) {
+
+
+    .logIn {
+        background-color: #34becb;
+        border: none;
+        color: #fff;
+        text-align: center;
+        padding: 0px;
+        margin: 8px;
+        width: 100px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);
+    }
+
+    .logIn {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+    .logIn:after {
+        content: '>';
+        position: absolute;
+        opacity: 0;
+        right: -1px;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+    .logIn:hover {
+        padding-right: 24px;
+        padding-left: 8px;
+        width: 120px;
+    }
+
+    .logIn:hover:after {
+        opacity: 1;
+        right: 10px;
+    }
+
+    .logIn:focus {
+        outline: 0;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+
+    .signUp {
+        margin: 10px;
+        color: white;
+    }
+
+    #logIn {
+        color: white !important;
+    }
+
+    .planBox {
+
+        text-align: center;
+        max-width: 400px;
+        margin: 20px;
+
+
+    }
+}
+
+@media (max-width: 991px){
+      .planBox {
+          border-radius: 5px;
+          text-align: center;
+          max-width: 350px;
+          margin: 20 auto;
+          font-weight: 300px;
+          background-color: white;
+          box-shadow: 4px 4px 5px rgba(128, 128, 128, 0.377);
+          margin-bottom: 10%;
+
+      }
+}
+
+
+@media (max-width: 992px) and (min-width:500px) {
+    
+    .col-md-3 {
+        -ms-flex: 0 0 55%;
+        flex: 0 0 50%;
+        max-width: 100%;
+}
+
+.planBox {
+    border-radius: 5px;
+    text-align: center;
+    max-width: 350px;
+    margin: 20 auto;
+    font-weight: 300px;
+    background-color: white;
+    box-shadow: 4px 4px 5px rgba(128, 128, 128, 0.377);
+    margin-bottom: 10%;
+
+}
+}

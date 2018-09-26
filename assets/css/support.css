@@ -1,14 +1,21 @@
-body{
+body {
     overflow-x: hidden;
 }
 
 .banner {
-    background-image: url(../images/mainpic.jpg);
+    background-image: url(../images/customer-care.jpeg);
     background-size: cover;
 
     -webkit-box-shadow: 100px 100px 1000px 1000px inset rgba(0, 0, 0, 0.39);
 
-    box-shadow: 100px 100px 1000px 1000px inset rgba(0, 0, 0, 0.39);
+    box-shadow: 100px 100px 1000px 1000px inset rgba(13, 52, 75, 0.596);
+}
+
+.sloganBottom {
+    margin: 40px;
+    font-size: 20px;
+    letter-spacing: .1px;
+    line-height: 35px;
 }
 
 .navbar-fixed-top.scrolled {
@@ -35,6 +42,7 @@ body{
 
 .navbar-light .navbar-nav .nav-link {
     color: white !important;
+    white-space: nowrap;
 }
 
 .navlinks:hover {
@@ -118,177 +126,92 @@ body{
     padding-bottom: 150px;
     z-index: 1;
     color: white;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-@media (max-width: 942px) {
-
-    .signUp {
-        display: none;
-    }
-
+.contact-7{
+    border-right: 2px solid rgba(211, 211, 211, 0.363);
 }
 
-@media (max-width: 620px) {
-
-    .content {
-        text-align: center;
-        padding-top: 100px;
-        padding-bottom: 150px;
-        color: white;
-    }
-
-
+.contactSlogan{
+    margin: 30px;
 }
 
-
-
-
-
-.navbar-nav {
-    white-space: nowrap;
+.location{
+    margin: 30px;
+    font-weight: 300;
 }
 
-.sign {
-    margin: 20px;
+.contact{
+    margin: 30px;
+    font-weight:200;
+}
+
+.formInput{
+    width: 100%;
     height: 40px;
-    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.formInput:focus{
+    outline: none;
+}
+
+.signUp2 {
     background-color: #34becb;
-    color: white;
-}
-
-.sign:hover {
-    background-color: #2facb8;
-}
-
-.sign:active {
-    background-color: #0c336e;
-
-}
-
-.sign:focus {
-    outline: 0;
-}
-
-.question {
-    margin: 20px;
-    height: 40px;
     border: none;
-    background-color: #34becb62;
-    color: white;
-}
-
-.question:hover {
-    background-color: #34becb9d;
-
-}
-
-.question:active {
-    background-color: #0c336e;
-}
-
-.question:focus {
-    outline: 0;
-}
-
-.slogan {
-    font-size: 60px;
-}
-
-.sloganBottom {
-    margin: 40px;
-    font-size: 18px;
-}
-
-.allTime {
-    width: 70px;
-}
-
-.grey {
-    background-color: #f3f3f3;
-    border-bottom: 1px solid darkgrey;
-}
-
-.phone {
-    width: 450px;
-    margin-top: 70px;
-}
-
-.unique {
+    color: #fff;
     text-align: center;
-    margin-top: 70px;
-}
-
-.uniqueList {
-    padding: 12px;
-    text-align: left;
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-.uniqueList2{
-     padding: 12px;
-    text-align: left;
-    max-width: 400px;
-    margin: 0 auto;
-    list-style: none;
-}
-
-.sloganUnique {
-    max-width: 500px;
-    padding: 20px;
-    margin: 0 auto;
-}
-
-
-.white {
-    border-bottom: 1px solid darkgrey;
-}
-
-.ipad {
-    width: 760px;
-}
-
-.phoneCol1 {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.unique2 {
-    text-align: center;
-    margin-top: 70px;
-}
-
-
-.signupContent{
-    text-align: center;
-    padding: 20px;
-    max-width: 500px;
-    margin: 50 auto;
-}
-
-.Login2{
-    width: 150px;
-    margin: 20px;
+    padding: 1px;
+    width: 200px;
     height: 40px;
-    border: none;
-    background-color: #34becb;
-    color: white;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);
 }
 
-.Login2:active{
-    background-color: #0c336e;
+.signUp2 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
-.Login2:focus {
-    outline: 0;
+.signUp2:after {
+    content: '>';
+    position: absolute;
+    opacity: 0;
+    right: -1px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
-.footer{
-   
+.signUp2:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+    width: 220px;
+}
+
+.signUp2:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.footer {
+    margin-top: 8%;
     background-color: black;
 }
 
-.footContent{
+.footContent {
     color: white;
     margin: 20px;
     padding: 50px;
@@ -296,46 +219,46 @@ body{
     display: inline;
 }
 
-.Applogo{
+.Applogo {
     width: 120px;
     border: 1px solid grey;
     border-radius: 5px;
 }
 
-.Googlelogo{
-     width: 120px;
-     border: 1px solid grey;
-     border-radius: 5px;
+.Googlelogo {
+    width: 120px;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
-.logos{
+.logos {
     padding: 20px;
     max-width: 400px;
     margin: 0 auto;
 }
 
-.bottomFooter{
+.bottomFooter {
     color: white;
     text-align: center;
     padding: 30px;
     padding-bottom: 0px;
 }
 
-.footerIcons{
+.footerIcons {
     display: inline;
-    
+
 }
 
-.icons{
+.icons {
     width: 50px;
     margin-bottom: 20px;
 }
 
-.footerMenu{
+.footerMenu {
     display: inline;
 }
 
-.footMenu{
+.footMenu {
     display: inline;
     list-style: none;
     color: white !important;
@@ -343,67 +266,10 @@ body{
 
 
 
-.footLink:hover{
- border: none;
- text-decoration: none !important;
- color: #0c336e;
-}
-
-@media (max-width: 767px) {
-
-    uniqueList {
-        padding: 20px;
-        text-align: center;
-        max-width: 400px;
-        margin: 0 auto;
-        list-style: none;
-    }
-
-    .phone {
-        width: 350px;
-        margin-top: 70px;
-    }
-
-    .phoneCol {
-        max-width: 370px;
-        margin: 0 auto;
-    }
-
-    .phoneCol1 {
-        max-width: 400px;
-        margin: 0 auto;
-    }
-
-    .ipad {
-        width: 400px;
-        padding-right: 43px;
-    }
-
-}
-
-
-
-
-
-@media (max-width: 1384px) {
-
-    .unique2 {
-        max-width: 700px;
-        margin: 70 auto;
-        text-align: center;
-    }
-
-}
-
-@media (max-width: 767px) {
-
-    .rowFlip {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
-    }
-
+.footLink:hover {
+    border: none;
+    text-decoration: none !important;
+    color: #0c336e;
 }
 
 @media (max-width: 767px) {
@@ -501,71 +367,3 @@ body{
         color: white !important;
     }
 }
-
-
-
-.popup__overlay {
-    display: none;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.692);
-    text-align: center;
-    z-index: 100;
-}
-
-.popup__overlay:after {
-    display: inline-block;
-    height: 100%;
-    width: 0;
-    vertical-align: middle;
-    content: "";
-}
-
-.popup {
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    max-width: 640px;
-    max-height: 380px;
-    padding: 25px;
-    border: 1px solid black;
-    background: black;
-    color: white;
-    vertical-align: middle;
-}
-
-.popup-form__row {
-    margin: 1em 0;
-}
-
-.popup__close {
-    display: block;
-    position: absolute;
-    top: 1px;
-    right: 1px;
-    width: 12px;
-    height: 12px;
-    padding: 8px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 12px;
-    line-height: 12px;
-    color: rgba(53, 36, 22, 0.95);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.popup__close:hover {
-    color: #eea200;
-}
-
-iframe {
-    width: 100%;
-    height: 100%;
-}
-
-
